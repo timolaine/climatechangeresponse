@@ -6,10 +6,11 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6c837f79c64048339cee67ab2dbcf31f"
-      targetConnections="id-bcfe938101a749819c4eee16d2d399f3">
+      targetConnections="id-449bea64ba7842dab22b4281a62aba6b"
+      textPosition="1">
     <bounds
         x="12"
-        y="132"
+        y="12"
         width="120"
         height="55"/>
     <archimateElement
@@ -18,10 +19,20 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-018b50ed91c64c318ab257752fcebbfa">
+      id="id-018b50ed91c64c318ab257752fcebbfa"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-671ba5d5c204439dbb3c9fe7da75c628"
+        source="id-018b50ed91c64c318ab257752fcebbfa"
+        target="id-32c4633b29a5473cac89a039f828a8e1">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-d345a63439ac4cecb42c2496630ca2df.xml#id-d345a63439ac4cecb42c2496630ca2df"/>
+    </sourceConnections>
     <bounds
-        x="468"
-        y="132"
+        x="168"
+        y="12"
         width="120"
         height="55"/>
     <archimateElement
@@ -29,57 +40,51 @@
         href="Meaning_id-ca723db17cfe4c40865663cb7eeb81d9.xml#id-ca723db17cfe4c40865663cb7eeb81d9"/>
   </children>
   <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2feec5d4eb7744bba2db6cd15286d8cc"
+      textAlignment="1"
+      content="Because we are already committed to some level of climate change, responding to climate change involves a two-pronged approach:&#xA;&#xA;- Reducing emissions of and stabilizing the levels of heat-trapping greenhouse gases in the atmosphere (“mitigation”);&#xA;- Adapting to the climate change already in the pipeline (“adaptation”).&#xA;&#xA;(NASA, Responding to climate change, https://climate.nasa.gov/solutions/adaptation-mitigation/)"
+      borderType="2">
+    <bounds
+        x="324"
+        y="12"
+        width="409"
+        height="169"/>
+  </children>
+  <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-cde8c44a3bfd487e84911064d1cf9080">
+      id="id-d8f29a0ca3a74f6fa8fd9d154f3b4d6e"
+      textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-bcfe938101a749819c4eee16d2d399f3"
-        source="id-cde8c44a3bfd487e84911064d1cf9080"
+        id="id-449bea64ba7842dab22b4281a62aba6b"
+        source="id-d8f29a0ca3a74f6fa8fd9d154f3b4d6e"
         target="id-6c837f79c64048339cee67ab2dbcf31f">
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-cd4981e73e1c455e977e5c2d65241d72.xml#id-cd4981e73e1c455e977e5c2d65241d72"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-df81b95d4a8d42cba048cad08ca2d0ee"
-        source="id-cde8c44a3bfd487e84911064d1cf9080"
-        target="id-6cdbec61cf814ce8b78d7634aabdf52a">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_id-7fce936cb31b4ebb96a0c0832de8d567.xml#id-7fce936cb31b4ebb96a0c0832de8d567"/>
-    </sourceConnections>
     <bounds
-        x="168"
-        y="132"
+        x="12"
+        y="108"
         width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Outcome"
-        href="Outcome_id-5b7e516608da48a4bf7d3d855420cc35.xml#id-5b7e516608da48a4bf7d3d855420cc35"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-6cdbec61cf814ce8b78d7634aabdf52a"
-      targetConnections="id-df81b95d4a8d42cba048cad08ca2d0ee">
-    <bounds
-        x="252"
-        y="12"
-        width="120"
-        height="55"/>
+        height="73"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-1e679b84a26b400788de2c85ac4bd320.xml#id-1e679b84a26b400788de2c85ac4bd320"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-ec608cdf1ac249d7a7c5d26f59bb5249"
-      textAlignment="1"
-      content="TODO: primary adaptation outcomes">
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-32c4633b29a5473cac89a039f828a8e1"
+      targetConnections="id-671ba5d5c204439dbb3c9fe7da75c628"
+      textPosition="1">
     <bounds
-        x="312"
-        y="132"
-        width="121"
-        height="61"/>
+        x="168"
+        y="108"
+        width="120"
+        height="73"/>
+    <archimateElement
+        xsi:type="archimate:Goal"
+        href="Goal_id-9e16a09ce5f549a0b8acd26b27063e2f.xml#id-9e16a09ce5f549a0b8acd26b27063e2f"/>
   </children>
 </archimate:ArchimateDiagramModel>

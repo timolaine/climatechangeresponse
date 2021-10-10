@@ -5,20 +5,6 @@
     id="id-03c21af98c36413da370b6f538d1a329">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-06528f20780e437e809f7f8d80a329bb"
-      targetConnections="id-c7c0093ff0a845ea93da836d777cf213"
-      textPosition="1">
-    <bounds
-        x="180"
-        y="12"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Stakeholder"
-        href="Stakeholder_id-a3ba5bdc8154423abc937e21630e77b0.xml#id-a3ba5bdc8154423abc937e21630e77b0"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-88da62db1652483e949ae482cb05c00a"
       targetConnections="id-f993a0e4bf9542e08489bf991093d9d2"
       textPosition="1">
@@ -33,29 +19,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-828884d98d2742758056c04ffdae173a"
-      targetConnections="id-e24ea9a8ce5249feb5661f7b1b2c6878 id-f83984492a5a4106a97c8cb9b7d67f2f"
-      textPosition="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-c7c0093ff0a845ea93da836d777cf213"
-        source="id-828884d98d2742758056c04ffdae173a"
-        target="id-06528f20780e437e809f7f8d80a329bb">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-ccbbafa69052410f93a9e3c07df182c0.xml#id-ccbbafa69052410f93a9e3c07df182c0"/>
-    </sourceConnections>
-    <bounds
-        x="180"
-        y="108"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Value"
-        href="Value_id-95b508e2afd6416c853fb4adc8a219ff.xml#id-95b508e2afd6416c853fb4adc8a219ff"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-822ae52930af4e22b91b95f2bb3577ea"
       textPosition="1">
     <sourceConnections
@@ -67,15 +30,6 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-7fce936cb31b4ebb96a0c0832de8d567.xml#id-7fce936cb31b4ebb96a0c0832de8d567"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-e24ea9a8ce5249feb5661f7b1b2c6878"
-        source="id-822ae52930af4e22b91b95f2bb3577ea"
-        target="id-828884d98d2742758056c04ffdae173a">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-72fb563df15a44fc875355142024b355.xml#id-72fb563df15a44fc875355142024b355"/>
-    </sourceConnections>
     <bounds
         x="348"
         y="108"
@@ -84,62 +38,5 @@
     <archimateElement
         xsi:type="archimate:Outcome"
         href="Outcome_id-5b7e516608da48a4bf7d3d855420cc35.xml#id-5b7e516608da48a4bf7d3d855420cc35"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-d1d113e78d7d49278edc3d6eb85a918a"
-      textPosition="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-522d768d78914c80b2fca0fc84d75e7f"
-        source="id-d1d113e78d7d49278edc3d6eb85a918a"
-        target="id-348081b0f66246b98ef98bff9045672a">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-49c8da96fa914ea59db5fa412406fdeb.xml#id-49c8da96fa914ea59db5fa412406fdeb"/>
-    </sourceConnections>
-    <bounds
-        x="12"
-        y="12"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Stakeholder"
-        href="Stakeholder_id-17f78358e0f146b49bd9d2ba51072989.xml#id-17f78358e0f146b49bd9d2ba51072989"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-fe39af6ea073424d9d5465e12272c3d2"
-      textAlignment="1"
-      content="We and other organisms need a place to live. If we do not adapt considerably, our survival requires limiting global warming to 1.5°C– 2°C. This is therefore an important outcome we are looking for. Organisms with similar requirements as us are as vulnerable as we are, and their survival requires similar limits. Some are less vulnerable and some more vulnerable.&#xA;&#xA;This does not take into account all ecosystem-level effects. For example, if a less vulnerable organism is dependent on a more vulnerable organism, in an ecosystem they are equally vulnerable."
-      borderType="2">
-    <bounds
-        x="12"
-        y="180"
-        width="457"
-        height="145"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-348081b0f66246b98ef98bff9045672a"
-      targetConnections="id-522d768d78914c80b2fca0fc84d75e7f"
-      textPosition="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-f83984492a5a4106a97c8cb9b7d67f2f"
-        source="id-348081b0f66246b98ef98bff9045672a"
-        target="id-828884d98d2742758056c04ffdae173a">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-aa3acd686d224ca88042b7dee12ffefe.xml#id-aa3acd686d224ca88042b7dee12ffefe"/>
-    </sourceConnections>
-    <bounds
-        x="12"
-        y="108"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Value"
-        href="Value_id-146408396fbc4647b7f8c977daeb3c0e.xml#id-146408396fbc4647b7f8c977daeb3c0e"/>
   </children>
 </archimate:ArchimateDiagramModel>
